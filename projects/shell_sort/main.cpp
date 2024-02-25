@@ -41,7 +41,7 @@ vector<int> shellSort(vector<int> a) {
 	vector<int> R = generateSmoothNumbers(n);
 	for (int x = 0; x < R.size(); ++x) {
 		if (R[x] != 0) {
-			k = [x];
+			k = R[x];
 			for (int i = k; i < n; ++i) {
 				int temp = a[i];
 				int j = i;
